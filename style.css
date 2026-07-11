@@ -65,3 +65,46 @@
     font-size: 16px;
     margin-bottom: 30px;
 }
+
+.speakers {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.speaker-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.speaker-card {
+    width: 300px;
+    text-align: left;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.speaker-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.speaker-card .tag {
+    color: #2563eb;
+    font-size: 12px;
+    margin: 10px;
+}
+
+.speaker-card h3 {
+    margin: 0 10px;
+}
+
+.speaker-card p {
+    margin: 5px 10px 10px;
+    font-size: 14px;
+    color: #555;
+}
