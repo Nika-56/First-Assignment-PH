@@ -81,7 +81,7 @@
 }
 
 .speaker-card {
-    width: 300px;
+    width: 340px;
     text-align: left;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -89,7 +89,7 @@
 
 .speaker-card img {
     width: 100%;
-    height: 200px;
+    height: 180px;
     object-fit: cover;
 }
 
@@ -216,4 +216,59 @@
 .social-links img {
     width: 30px;
     height: 30px;
+}
+
+.hackathon {
+    background-color: #f8f9fc;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hackathon h2 {
+    color: #1b1f3b;
+    margin-bottom: 15px;
+}
+
+.hackathon-intro {
+    max-width: 600px;
+    margin: 0 auto 40px;
+    color: #555;
+}
+
+.hackathon-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.hackathon-card {
+    background-color: white;
+    border: 2px solid #1b4fd8;
+    border-radius: 8px;
+    padding: 20px;
+    width: 220px;
+}
+
+.hackathon-card h3 {
+    color: #1b1f3b;
+    margin-bottom: 10px;
+}
+
+.hackathon-card p {
+    color: #444;
+}
+
+.hackathon-btn {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 12px 25px;
+    background-color: #1b4fd8;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.hackathon-btn:hover {
+    background-color: #143ca8;
 }
